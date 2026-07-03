@@ -1,0 +1,37 @@
+Project 1: Personal Info Profile
+
+This project creates a simple personal profile using Python variables and core data types.
+
+Data types used:
+
+1. String (str)
+   A string stores text.
+   Example: name = "Your Name"
+
+2. Integer (int)
+   An integer stores a whole number.
+   Example: age = 25
+
+3. Float (float)
+   A float stores a decimal number.
+   Example: height = 5.9
+
+4. Boolean (bool)
+   A boolean stores either True or False.
+   Example: is_developer = True
+
+5. List (list)
+   A list stores multiple values in order.
+   Example: hobbies = ["coding", "reading"]
+
+6. Dictionary (dict)
+   A dictionary stores data as key-value pairs.
+   Example: profile = {"name": name, "age": age}
+   
+What the program practices:
+- Creating variables
+- Using strings, integers, floats, booleans, lists, and dictionaries
+- Getting user input with input()
+- Converting input into numbers with int() and float()
+- Printing a formatted profile with f-strings
+- Checking data types with type()
