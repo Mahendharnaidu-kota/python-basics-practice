@@ -69,7 +69,6 @@ Per Person Payment: $39.33
 ```
 tip-calculator/
 ├── tip_calculator.py       # Main script
-├── test_tip_calculator.py  # Test cases
 └── README.md               # Project documentation
 ```
 
