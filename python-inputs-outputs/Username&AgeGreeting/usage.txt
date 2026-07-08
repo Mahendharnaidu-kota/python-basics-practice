@@ -1,0 +1,34 @@
+========================================
+Username & Age Greeting - Usage Example
+========================================
+
+How to run:
+    python greeting.py
+
+----------------------------------------
+Example Run 1
+----------------------------------------
+========================================
+Welcome to the Greeting Generator!
+========================================
+Enter your name: Alice
+Enter your age: 25
+========================================
+Hello Alice! Next year you'll be 26 years old.
+========================================
+
+----------------------------------------
+Example Run 2
+----------------------------------------
+========================================
+Welcome to the Greeting Generator!
+========================================
+Enter your name: Rahul
+Enter your age: 30
+========================================
+Hello Rahul! Next year you'll be 31 years old.
+========================================
+
+Notes:
+- Age must be entered as a whole number (e.g. 25, not 25.5 or "twenty-five").
+- Name and age are collected via input() and converted using int() where needed.
