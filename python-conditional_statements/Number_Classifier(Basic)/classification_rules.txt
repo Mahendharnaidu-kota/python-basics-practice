@@ -1,0 +1,54 @@
+NUMBER CLASSIFIER — CLASSIFICATION RULES
+==========================================
+
+This program takes a whole number (integer) as input and classifies
+it according to three independent checks: Sign, Parity, and
+Divisibility.
+
+--------------------------------------------------------------------
+1. SIGN CHECK
+--------------------------------------------------------------------
+Condition           | Result
+---------------------|------------------------------------------
+num > 0              | Positive
+num < 0              | Negative
+num == 0             | Zero
+
+Logic: A simple if / elif / else chain. Since a number can only be
+positive, negative, or zero, exactly one branch will always run.
+
+--------------------------------------------------------------------
+2. PARITY CHECK (Odd / Even)
+--------------------------------------------------------------------
+Condition            | Result
+----------------------|-----------------------------------------
+num % 2 == 0          | Even
+num % 2 != 0          | Odd
+
+Logic: The modulo operator (%) returns the remainder of division
+by 2. A remainder of 0 means the number divides evenly by 2 (Even).
+Any non-zero remainder means it does not (Odd).
+
+--------------------------------------------------------------------
+3. DIVISIBILITY CHECK (5 / 10)
+--------------------------------------------------------------------
+Condition                        | Result
+-----------------------------------|---------------------------------
+num % 10 == 0                      | Divisible by both 5 and 10
+num % 5 == 0 (and not % 10 == 0)   | Divisible by 5
+otherwise                          | Not divisible by 5 or 10
+
+Logic: Every number divisible by 10 is automatically divisible by 5
+(since 10 = 5 × 2). Because of this, the "divisible by 10" check is
+placed FIRST. If it doesn't match, we then check divisibility by 5
+alone. This avoids the common bug of checking %5 before %10, which
+would make the %10 branch unreachable.
+
+--------------------------------------------------------------------
+NOTES
+--------------------------------------------------------------------
+- Input is expected to be a whole number (integer). Decimal values
+  are not accepted, since "odd/even" and "divisibility" are not
+  well-defined for non-integer values.
+- Each of the three checks (Sign, Parity, Divisibility) is
+  independent — the outcome of one does not affect the others.
