@@ -1,0 +1,39 @@
+=====================================
+        GRADING SYSTEM REFERENCE
+=====================================
+
+Total marks considered : 500 (5 subjects x 100 marks each)
+Marks per subject range : 0 - 100
+
+-------------------------------------
+GRADE BOUNDARIES (based on total marks out of 500)
+-------------------------------------
+Grade A : 451 - 500 marks
+Grade B : 401 - 450 marks
+Grade C : 351 - 400 marks
+Grade D : 301 - 350 marks
+Grade E : 251 - 300 marks
+Grade F : 0   - 250 marks
+
+-------------------------------------
+GPA MAPPING
+-------------------------------------
+Grade A : GPA 4.0
+Grade B : GPA 3.0
+Grade C : GPA 2.0
+Grade D : GPA 1.0
+Grade E : GPA 0.5
+Grade F : GPA 0.0
+
+-------------------------------------
+PASS / FAIL CRITERIA
+-------------------------------------
+Grades A, B, C, D, E : PASS
+Grade F               : FAIL
+
+-------------------------------------
+INPUT VALIDATION RULE
+-------------------------------------
+Each subject's marks must satisfy: 0 <= marks <= 100
+Any subject outside this range invalidates the whole entry.
+=====================================   
